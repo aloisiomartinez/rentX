@@ -8,7 +8,7 @@
       "email": "aloisio.jacobs@hotmail.com"
     }
   },
-  "patchs": {
+  "paths": {
     "/categories": {
       "post": {
         "tags": ["Category"],
