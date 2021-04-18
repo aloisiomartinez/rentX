@@ -1,2 +1,2 @@
 # modulo2
-api de categorias
+teste de read
