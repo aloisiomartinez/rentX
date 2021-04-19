@@ -13,7 +13,6 @@ class CreateCategoryUseCase {
       name
     );
 
-    console.log("Testee");
     if (categoryAlreadExists) {
       throw new Error("Category Alread Exists!");
     }
