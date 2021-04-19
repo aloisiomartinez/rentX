@@ -9,13 +9,12 @@ import {
 class CategoriesRepository implements ICategoriesRepository {
   private repository: Repository<Category>;
 
-  private static INSTANCE: CategoriesRepository;
-
-  private constructor() {
+  constructor() {
     this.repository = getRepository(Category);
   }
 
   async create({ name, description }: ICreateCategoryDTO): Promise<void> {
+    console.log("Createe");
     const category = this.repository.create({
       description,
       name,
