@@ -33,5 +33,5 @@ jobs:
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSH_KEY }}
           source: "."
-          target: "~/api/api-rentx"
+          target: "~/api/rentx"
 
